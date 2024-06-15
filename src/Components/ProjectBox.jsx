@@ -11,18 +11,22 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     BookListdesc:
       "A simple book list web app built with the MERN stack. It can be used for creating, viewing, editing and deleting book lists.",
-      BookListGithub: "https://github.com/araviind-p/BookStore-Backend/tree/main",
-      BookListWebsite:"https://bookstore-frontend-1jxu.onrender.com/",
+    BookListGithub: "https://github.com/araviind-p/BookStore-Backend/tree/main",
+    BookListWebsite: "https://bookstore-frontend-1jxu.onrender.com/",
 
     SimpleAmazondesc:
       "Developed a full-stack e-commerce web application replicating the core functionalities of Amazon using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
-      SimpleAmazonGithub:"https://github.com/araviind-p/amazon-mern-backend",
-      SimpleAmazonWebsite:"https://amazon-mern-frontend.onrender.com/",
+    SimpleAmazonGithub: "https://github.com/araviind-p/amazon-mern-backend",
+    SimpleAmazonWebsite: "https://amazon-mern-frontend.onrender.com/",
 
     Attendancedesc:
       "Developed a full-stack e-commerce web application replicating the core functionalities of Amazon using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
-      AttendanceGithub:"https://github.com/araviind-p/Attendance",
-      AttendanceWebsite:"https://attendance-nmo8.onrender.com/"
+    AttendanceGithub: "https://github.com/araviind-p/Attendance",
+    AttendanceWebsite: "https://attendance-nmo8.onrender.com/",
+
+    FoodRecipiedesc: "Food recipie app.",
+    FoodRecipieGithub: "https://github.com/araviind-p/Food-recipie-React",
+    FoodRecipieWebsite: "https://food-recipie-react.onrender.com",
   };
 
   return (

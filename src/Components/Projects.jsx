@@ -4,6 +4,7 @@ import WeatherImg from "../images/WeatherApp.png";
 import BookListImg from "../images/BookList.png"
 import SimpleAmazonImg from "../images/SimpleAmazon.png"
 import AttendanceImg from "../images/Attendance.png"
+import FoodRecipie from "../images/FoodRecipie.png"
 
 const Projects = () => {
   return (
@@ -16,6 +17,7 @@ const Projects = () => {
         <ProjectBox projectPhoto={BookListImg} projectName="BookList" />
         <ProjectBox projectPhoto={SimpleAmazonImg} projectName="SimpleAmazon" />
         <ProjectBox projectPhoto={AttendanceImg} projectName="Attendance" />
+        <ProjectBox projectPhoto={FoodRecipie} projectName="FoodRecipie" />
       </div>
     </div>
   );
