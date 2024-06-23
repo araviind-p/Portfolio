@@ -27,7 +27,7 @@ const About = () => {
             spare time.
           </p>
           <a
-            href="https://drive.google.com/file/d/1vv-d92vqXQg-B7lLjALzxEYcOhx2MJ8P/view?usp=sharing"
+            href="https://drive.google.com/file/d/1h_SMOW-iniaanY_tZ-cpeIt2WZ4m8L7h/view?usp=sharing"
             target="_blank"
             className="resume-btn"
           >
@@ -44,13 +44,16 @@ const About = () => {
       <div className="skills">
         <Skills skill="HTML" />
         <Skills skill="CSS" />
-        <Skills skill="Bootstrap" />
         <Skills skill="Javascript" />
+        <Skills skill="Bootstrap" />
         <Skills skill="React" />
+        <Skills skill="Npm" />
+        <Skills skill="Mongodb" />
         <Skills skill="Git" />
         <Skills skill="Github" />
+        <Skills skill="Python" />
         <Skills skill="C" />
-        <Skills skill="Npm" />
+        <Skills skill="Leetcode" />
       </div>
     </>
   );
