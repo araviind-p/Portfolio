@@ -14,12 +14,12 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={WeatherImg} projectName="WeatherApp" />
-        <ProjectBox projectPhoto={BookListImg} projectName="BookList" />
-        <ProjectBox projectPhoto={SimpleAmazonImg} projectName="SimpleAmazon" />
-        <ProjectBox projectPhoto={AttendanceImg} projectName="Attendance" />
-        <ProjectBox projectPhoto={FoodRecipie} projectName="FoodRecipie" />
         <ProjectBox projectPhoto={OTP_MERN} projectName="OTP_MERN" />
+        <ProjectBox projectPhoto={SimpleAmazonImg} projectName="SimpleAmazon" />
+        <ProjectBox projectPhoto={BookListImg} projectName="BookList" />
+        <ProjectBox projectPhoto={FoodRecipie} projectName="FoodRecipie" />
+        <ProjectBox projectPhoto={WeatherImg} projectName="WeatherApp" />
+        <ProjectBox projectPhoto={AttendanceImg} projectName="Attendance" />
       </div>
     </div>
   );
