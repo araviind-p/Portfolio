@@ -27,6 +27,11 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     FoodRecipiedesc: "Food recipie app.",
     FoodRecipieGithub: "https://github.com/araviind-p/Food-recipie-React",
     FoodRecipieWebsite: "https://food-recipie-react.onrender.com",
+
+    OTP_MERNdesc:
+      "This project is a scalable and secure implementation of authentication and authorization using Node.js, Express.js, bcrypt, MongoDB, and React js. It provides a robust foundation for managing user accounts, authentication, and access control in your web applications. Frontend is created using React js(npx-cra)",
+    OTP_MERNGithub: "https://github.com/araviind-p/OTP-verification-MERN",
+    OTP_MERNWebsite: "https://otp-verification-mern-1.onrender.com/",
   };
 
   return (
