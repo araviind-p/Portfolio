@@ -9,8 +9,8 @@ const Footer = () => {
     <div className="footer-container">
       <footer>
         <h4>Copyright &copy; {year} | All Rights Reserved.</h4>
-        </footer>
-        <footer>
+      </footer>
+      <footer className="footer_mobile">
         <div className="footerLinks">
           <a href="https://github.com/araviind-p" target="_blank">
             <FaGithub />
