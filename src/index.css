@@ -49,7 +49,7 @@ button {
   border-style: none;
 }
 
-.HomeText button{
+.HomeText button {
   width: 163px;
 }
 
@@ -58,7 +58,6 @@ button:hover {
   background-color: #e7e7e7;
   transition: all ease-in-out 0.3s;
 }
-
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -106,7 +105,7 @@ button:hover {
   cursor: pointer;
 }
 
-.Logo img{
+.Logo img {
   width: 8%;
   height: 8%;
   border-radius: 100%;
@@ -256,7 +255,6 @@ button:hover {
     padding: 20px;
   }
   .HomeText {
-
     text-align: left;
     display: inline-block;
   }
@@ -428,7 +426,7 @@ button:hover {
 }
 
 /* FOOTER */
-.footer-container{
+.footer-container {
   display: flex;
 }
 
@@ -441,7 +439,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   position: absolute;
   bottom: 0px;
   text-align: center;
@@ -474,7 +472,7 @@ footer h4 {
 }
 
 @media (max-width: 767px) {
-  .footer-container{
+  .footer-container {
     display: flex;
   }
   footer {
@@ -491,18 +489,18 @@ footer h4 {
     margin-bottom: 5%;
     margin-top: 102px;
   }
-  .footerLinks{
+  .footerLinks {
     margin-bottom: 15%;
     padding-bottom: 4%;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 144px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 900px) {
-  .footer-container{
+  .footer-container {
     display: flex;
   }
   footer {
@@ -519,17 +517,17 @@ footer h4 {
     margin-bottom: 5%;
     margin-top: 112px;
   }
-  .footerLinks{
+  .footerLinks {
     margin-bottom: 15%;
     padding-bottom: 4%;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 154px;
   }
 }
 @media (min-width: 901px) {
-  .footer-container{
+  .footer-container {
     display: flex;
     margin-top: 70px;
   }
@@ -547,15 +545,14 @@ footer h4 {
     margin-bottom: 5%;
     margin-top: 50px;
   }
-  .footerLinks{
+  .footerLinks {
     margin-bottom: 15%;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-top: 90px;
   }
 }
-
 
 .contact-container {
   position: relative;
@@ -570,6 +567,12 @@ footer h4 {
   margin-top: 30%;
   text-align: center;
   color: var(--color);
+}
+
+@media (max-width: 700px) {
+  .contact-container {
+    padding-right: 9%;
+  }
 }
 
 .form-group {
@@ -610,34 +613,39 @@ a {
   width: 105%;
   height: 54px;
   background-color: #0c2f69;
-border-radius: 10px;  
-padding-top: 30px;
+  border-radius: 10px;
+  padding-top: 30px;
 }
 
 @media (min-width: 799px) and (max-width: 1000px) {
-  .Logo img{
+  .Logo img {
     width: 20%;
     height: 20%;
   }
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
-  .Logo img{
+  .Logo img {
     width: 15%;
     height: 15%;
   }
 }
 
 @media (min-width: 798px) and (max-width: 800px) {
-  .Logo img{
+  .Logo img {
     width: 7%;
     height: 7%;
   }
 }
 
 @media (max-width: 900px) {
-  .SkillsHeading{
+  .SkillsHeading {
     margin-top: 5px;
   }
 }
 
+@media (max-width: 900px) {
+  footer {
+    bottom: 7%;
+  }
+}
