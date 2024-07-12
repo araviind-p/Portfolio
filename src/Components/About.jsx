@@ -27,7 +27,7 @@ const About = () => {
             spare time.
           </p>
           <a
-            href="https://drive.google.com/file/d/1h_SMOW-iniaanY_tZ-cpeIt2WZ4m8L7h/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Cut-MDMXJYi-g0AeXiqB8bzNt6vFXsml/view?usp=sharing"
             target="_blank"
             className="resume-btn"
           >
