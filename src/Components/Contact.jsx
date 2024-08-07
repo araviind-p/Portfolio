@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaCheck } from "react-icons/fa";
+import Nav from "./Navbar";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -44,6 +45,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
+      <Nav/>
       {submitted ? (
         <p className="submitted-message">{message}</p>
       ) : (

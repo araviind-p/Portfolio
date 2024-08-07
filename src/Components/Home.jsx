@@ -10,8 +10,8 @@ import Footer from "./Footer.jsx";
 const Home = () => {
   return (
     <div>
-      <div className="HomePage">
         <Nav />
+      <div className="HomePage">
         <div className="HomeText">
           <h1>Hello there!</h1>
           <h1>
@@ -34,8 +34,8 @@ const Home = () => {
         <Tilt>
           <img className="Avatar" src={Avatar} alt="" />
         </Tilt>
-        <Footer/>
       </div>
+        <Footer/>
     </div>
   );
 };

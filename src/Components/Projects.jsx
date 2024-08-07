@@ -6,10 +6,12 @@ import SimpleAmazonImg from "../images/SimpleAmazon.png";
 import AttendanceImg from "../images/Attendance.png";
 import FoodRecipie from "../images/FoodRecipie.png";
 import OTP_MERN from "../images/OTP_MERN.png";
+import Nav from "./Navbar";
 
 const Projects = () => {
   return (
     <div>
+      <Nav/>
       <h1 className="projectHeading">
         My <b>Projects</b>
       </h1>
