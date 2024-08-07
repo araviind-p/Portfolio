@@ -37,15 +37,15 @@ function App() {
           <TransitionGroup>
             <CSSTransition key={location.key} classNames="fade" timeout={500}>
               <div>
-                <Nav />
-                <MoveToTop />
+                {/* <Nav /> */}
+                {/* <MoveToTop /> */}
                 <Routes location={location}>
                   <Route path="/" element={<Home />} />
                   <Route path="/About" element={<About />} />
                   <Route path="/Project" element={<Project />} />
                   <Route path="/Contact" element={<Contact />} />
                 </Routes>
-                <Footer />
+                {/* <Footer /> */}
               </div>
             </CSSTransition>
           </TransitionGroup>

@@ -1,11 +1,13 @@
 import React from "react";
 import Skills from "./Skills.jsx";
 import { FaFileDownload } from "react-icons/fa";
+import Nav from "./Navbar.jsx";
 
 const About = () => {
   return (
     <>
       <div className="AboutPage">
+        <Nav/>
         <div className="AboutText">
           <h1 className="AboutTextHeading">
             Get to <b>know</b> me!

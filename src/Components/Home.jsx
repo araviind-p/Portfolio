@@ -5,10 +5,12 @@ import Tilt from "react-parallax-tilt";
 import Avatar from "../images/Avatar.png";
 import { CgPhone } from "react-icons/cg";
 import { BsPerson } from "react-icons/bs";
+import Nav from "./Navbar.jsx";
 const Home = () => {
   return (
     <div>
       <div className="HomePage">
+        <Nav />
         <div className="HomeText">
           <h1>Hello there!</h1>
           <h1>
