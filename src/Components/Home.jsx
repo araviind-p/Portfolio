@@ -6,6 +6,7 @@ import Avatar from "../images/Avatar.png";
 import { CgPhone } from "react-icons/cg";
 import { BsPerson } from "react-icons/bs";
 import Nav from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 const Home = () => {
   return (
     <div>
@@ -33,6 +34,7 @@ const Home = () => {
         <Tilt>
           <img className="Avatar" src={Avatar} alt="" />
         </Tilt>
+        <Footer/>
       </div>
     </div>
   );
