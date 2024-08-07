@@ -16,11 +16,8 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    setLoading(true);
-
-    setTimeout(() => {
-      setLoading(false);
-    }, 1900);
+    const timer = setTimeout(() => setLoading(false), 1900);
+    return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);
 
   return (
@@ -37,21 +34,21 @@ function App() {
         </div>
       ) : (
         <>
-
           <TransitionGroup>
             <CSSTransition key={location.key} classNames="fade" timeout={500}>
-              <Nav />
-              <MoveToTop />
-              <Routes location={location}>
-                <Route path="/" element={<Home />} />
-                <Route path="/About" element={<About />} />
-                <Route path="/Project" element={<Project />} />
-                <Route path="/Contact" element={<Contact />} />
-              </Routes>
-              <Footer />
+              <div>
+                <Nav />
+                <MoveToTop />
+                <Routes location={location}>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/About" element={<About />} />
+                  <Route path="/Project" element={<Project />} />
+                  <Route path="/Contact" element={<Contact />} />
+                </Routes>
+                <Footer />
+              </div>
             </CSSTransition>
           </TransitionGroup>
-
         </>
       )}
     </div>
