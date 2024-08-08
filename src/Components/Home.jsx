@@ -10,7 +10,7 @@ import Footer from "./Footer.jsx";
 const Home = () => {
   return (
     <div>
-        <Nav />
+      <Nav />
       <div className="HomePage">
         <div className="HomeText">
           <h1>Hello there!</h1>
@@ -35,7 +35,7 @@ const Home = () => {
           <img className="Avatar" src={Avatar} alt="" />
         </Tilt>
       </div>
-        <Footer/>
+      <Footer />
     </div>
   );
 };

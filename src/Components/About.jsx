@@ -2,6 +2,7 @@ import React from "react";
 import Skills from "./Skills.jsx";
 import { FaFileDownload } from "react-icons/fa";
 import Nav from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 
 const About = () => {
   return (
@@ -57,6 +58,7 @@ const About = () => {
         <Skills skill="C" />
         <Skills skill="Leetcode" />
       </div>
+      <Footer/>
     </>
   );
 };

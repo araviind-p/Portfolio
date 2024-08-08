@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaCheck } from "react-icons/fa";
 import Nav from "./Navbar";
+import Footer from "./Footer";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -44,53 +45,56 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
-      <Nav/>
-      {submitted ? (
-        <p className="submitted-message">{message}</p>
-      ) : (
-        <form ref={form} onSubmit={sendEmail}>
-          <h2>Contact Me</h2>
+    <>
+      <div className="contact-container">
+        <Nav />
+        {submitted ? (
+          <p className="submitted-message">{message}</p>
+        ) : (
+          <form ref={form} onSubmit={sendEmail}>
+            <h2>Contact Me</h2>
 
-          <div className="form-group">
-            <label>Name</label>
-            <input
-              type="text"
-              name="name"
-              required
-              value={formData.name}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label>Email</label>
-            <input
-              type="email"
-              name="email"
-              required
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="form-group">
-            <label>Message</label>
-            <textarea
-              name="message"
-              required
-              value={formData.message}
-              onChange={handleChange}
-            />
-          </div>
-          <a href="/">
-            <button className="submit-btn" type="Submit">
-              {" "}
-              Submit
-              <FaCheck> </FaCheck>{" "}
-            </button>
-          </a>
-        </form>
-      )}
-    </div>
+            <div className="form-group">
+              <label>Name</label>
+              <input
+                type="text"
+                name="name"
+                required
+                value={formData.name}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                required
+                value={formData.email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea
+                name="message"
+                required
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </div>
+            <a href="/">
+              <button className="submit-btn" type="Submit">
+                {" "}
+                Submit
+                <FaCheck> </FaCheck>{" "}
+              </button>
+            </a>
+          </form>
+        )}
+      </div>
+      <Footer />
+    </>
   );
 };
 
